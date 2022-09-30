@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    font-size: 16px;
+}
+.heading{
+    font-size: 20px;
+    margin: 5px;
+    width: 98%;
+    box-shadow: 5px 5px 15px grey;
+}
+.note{
+    font-size: 14px;
+    width: 95%;
+}
+.footer{
+    width: 100%;
+    bottom: 0;
+    line-height: 3;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    position: fixed;
+    font-family: cursive;
+    text-align: center;
+}
+canvas{
+    border: 5px white solid;
+    border-radius: 10px;
+    animation: change 1s infinite alternate;
+    background: white;
+    font-size: 20px;
+}
+@keyframes change{
+    0%{box-shadow: 5px 5px 15px red;}
+    100%{box-shadow: 5px 5px 15px orange;}
+}
